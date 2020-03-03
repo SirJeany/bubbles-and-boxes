@@ -18,22 +18,28 @@ p {
 .speech-bubble{
     position: relative;
 	background: #2E4057;
-    border-radius: .4em;
+    border-radius: 2rem;
     width: fit-content;
     height: fit-content;
+    /* box-shadow: 10px; */
 }
 
 .speech-bubble:after {
 	content: '';
 	position: absolute;
 	bottom: 0;
-	left: 10%;
+    left: 10%;
 	width: 0;
 	height: 0;
-	border: 20px solid transparent;
+	border: 2rem solid transparent;
 	border-top-color: #2E4057;
 	border-bottom: 0;
 	border-left: 0;
 	margin-left: -0.516em;
 	margin-bottom: -1.031em;
+}
+
+
+.speech-bubble:hover{
+    background-color: #AAFFAD;
 }
